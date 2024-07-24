@@ -1,0 +1,36 @@
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #d7e1ec, #f1f7fc);
+  }
+  
+  .signup-card {
+    padding: 2rem;
+    border-radius: 8px;
+    background-color: #ffffff;
+    width: 30rem;
+  }
+  
+  .signup-card h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .p-float-label > .p-inputtext, .p-float-label > .p-password {
+    width: 100%;
+  }
+  
+  .p-field {
+    margin-bottom: 1.5rem;
+  }
+  
+  .p-invalid .p-inputtext, .p-invalid .p-password {
+    border-color: #f44336;
+  }
+  
+  .signup-button {
+    width: 100%;
+    height: 3rem;
+    font-size: 1.2rem;
+  }

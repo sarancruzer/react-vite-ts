@@ -1,0 +1,52 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+}
+
+header {
+  background-color: #007ad9;
+  padding: 1rem;
+  color: white;
+}
+
+header nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #007ad9;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.card {
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  background-color: #ffffff;
+}
+
+.p-d-flex {
+  display: flex;
+}
+
+.p-jc-center {
+  justify-content: center;
+}
+
+.p-text-center {
+  text-align: center;
+}
+
+
+.p-inline-message.p-inline-message-error {
+  background: none;
+}
